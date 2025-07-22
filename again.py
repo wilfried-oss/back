@@ -1,8 +1,6 @@
 import numpy as np
 
-matrice = [[1, 2, 3],[1, 2, 3],
+matrice = [[21, 7, 2025],[1, 2, 3],
            [1, 2, 3]]
-print(matrice)
 np_matrice = np.array(matrice)
-print(np_matrice)
-print(np_matrice.mean())
+print(np.median(np_matrice))
